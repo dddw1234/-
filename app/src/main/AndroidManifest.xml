@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shlee.travel">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".map"
+            android:label="관광지 추천☞☞"
+            ></activity>
+        <activity
+            android:name=".recommendation_seoul"
+            android:label="서울"
+            ></activity>
+        <activity
+            android:name=".recommendation_busan"
+            android:label="부산"
+            ></activity>
+        <activity
+            android:name=".recommendation_dajeon"
+            android:label="대전"
+            ></activity>
+        <activity
+            android:name=".recommendation_daegu"
+            android:label="대구"
+            ></activity>
+        <activity
+            android:name=".recommendation_incheon"
+            android:label="인천"
+            ></activity>
+        <activity
+            android:name=".recommendation_gwangju"
+            android:label="광주"
+            ></activity>
+        <activity
+            android:name=".recommendation_ulsan"
+            android:label="울산"
+            ></activity>
+        <activity
+            android:name=".recommendation_jeju"
+            android:label="제주도"
+            ></activity>
+        <activity
+            android:name=".recommendation_sejong"
+            android:label="세종"
+            ></activity>
+        <activity
+            android:name=".recommendation_gangwon"
+            android:label="강원도"
+            ></activity>
+        <activity
+            android:name=".recommendation_gyenggi"
+            android:label="경기도"
+            ></activity>
+        <activity
+            android:name=".recommendation_chungbuk"
+            android:label="충청북도"
+            ></activity>
+        <activity
+            android:name=".recommendation_chungnam"
+            android:label="충청남도"
+            ></activity>
+        <activity
+            android:name=".recommendation_gyengbuk"
+            android:label="경상북도"
+            ></activity>
+        <activity
+            android:name=".recommendation_gyengnam"
+            android:label="경상남도"
+            ></activity>
+        <activity
+            android:name=".recommendation_jeonbuk"
+            android:label="전라북도"
+            ></activity>
+        <activity
+            android:name=".recommendation_jeonnam"
+            android:label="전라남도"
+            ></activity>
+        <service
+            android:name=".MusicService"
+            android:enabled="true"
+            />
+    </application>
+
+</manifest>

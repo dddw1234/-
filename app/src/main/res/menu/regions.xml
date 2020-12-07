@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/seoul_btn"
+        android:title="서울" />
+    <item
+        android:id="@+id/busan_btn"
+        android:title="부산" />
+    <item
+        android:id="@+id/daejeon_btn"
+        android:title="대전" />
+    <item
+        android:id="@+id/daegu_btn"
+        android:title="대구" />
+    <item
+        android:id="@+id/incheon_btn"
+        android:title="인천" />
+    <item
+        android:id="@+id/gwangju_btn"
+        android:title="광주" />
+    <item
+        android:id="@+id/ulsan_btn"
+        android:title="울산" />
+    <item
+        android:id="@+id/jeju_btn"
+        android:title="제주" />
+    <item
+        android:id="@+id/sejong_btn"
+        android:title="세종" />
+    <item
+        android:id="@+id/gangwon_btn"
+        android:title="강원도" />
+    <item
+        android:id="@+id/gyenggi_btn"
+        android:title="경기도" />
+    <item
+        android:id="@+id/chungbuk_btn"
+        android:title="충청북도" />
+    <item
+        android:id="@+id/chungnam_btn"
+        android:title="충청남도" />
+    <item
+        android:id="@+id/gyengbuk_btn"
+        android:title="경상북도" />
+    <item
+        android:id="@+id/gyengnam_btn"
+        android:title="경상남도" />
+    <item
+        android:id="@+id/jeonbuk_btn"
+        android:title="전라북도" />
+    <item
+        android:id="@+id/jeonnam_btn"
+        android:title="전라남도" />
+</menu>
